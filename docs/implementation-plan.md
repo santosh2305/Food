@@ -15,7 +15,7 @@ Missing menu means no invented dishes, prices or dietary claims and no checkout.
 - [x] Catalogue/cart business rules: Vitest tests for exact totals, option validation, stale data, malformed persistence, quantity bounds and checkout eligibility; implement typed services and Context persistence.
 - [x] Customer journey: build home, data-driven menu, customization, accessible cart dialog, checkout validation, payment status, order summary, copy-and-open WhatsApp, print and policy pages. Test important user interactions with React Testing Library.
 - [x] Quality: run TypeScript, ESLint, Prettier, unit/component tests, desktop/mobile browser flows and production build; inspect missing-input states and accessibility. Verified 19 unit/component tests, four desktop/mobile browser tests and zero axe A/AA violations on home and checkout. Independently reviewed cart/payment/privacy code; expanded QR readiness and changed-cart acknowledgement tests.
-- [ ] Delivery: commit feature branch, push to the supplied repository, provision isolated Azure Static Web App, configure GitHub Actions secret without exposing it, run deployment and verify live routes/assets/headers.
+- [x] Delivery: committed and pushed the feature branch, provisioned isolated Azure Static Web App, configured GitHub Actions secret without exposing it, and verified successful deployment. GitHub Actions run 35892789584 passed; the live HTTPS site also passed all four browser tests. Verified CSP and no-referrer headers. Follow-up workflow maintenance updates deprecated Action revisions; application assets are unchanged.
 
 ## Launch requirements
 
