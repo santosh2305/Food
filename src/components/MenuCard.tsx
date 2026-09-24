@@ -4,11 +4,7 @@ import type { MenuItem } from '../types';
 import { money } from '../config';
 import { useCart } from '../state/CartContext';
 import { FoodPlaceholder, Modal, Quantity } from './Primitives';
-import { dishPhoto } from '../data/photos';
 export function MenuCard({ item }: { item: MenuItem }) {
-  const photo = dishPhoto(item);
-  const [imageFailed, setImageFailed] = useState(false);
-  const image = item.image || photo?.path;
   const { add } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [open, setOpen] = useState(false);
@@ -23,28 +19,7 @@ export function MenuCard({ item }: { item: MenuItem }) {
   return (
     <article className="menu-card">
       <div className="card-image">
-        {image && !imageFailed ? (
-          <img
-            src={image}
-            srcSet={
-              !item.image && photo
-                ? `${photo.path.replace('.webp', '-small.webp')} 320w, ${photo.path} 640w`
-                : undefined
-            }
-            sizes="(max-width: 560px) 90vw, (max-width: 1000px) 45vw, 300px"
-            alt={photo ? `Representative ${photo.representativeOf} photograph` : item.name}
-            loading="lazy"
-            decoding="async"
-            width="480"
-            height="320"
-            onError={() => setImageFailed(true)}
-          />
-        ) : (
-          <FoodPlaceholder category={item.category} />
-        )}
-        <span className="image-caption">
-          {image && !imageFailed ? 'Serving suggestion' : 'Photo coming soon'}
-        </span>
+        <FoodPlaceholder category={item.category} />
         {item.dietary && (
           <span className={`diet ${item.dietary}`}>
             <span aria-hidden="true">●</span> {item.dietary === 'vegetarian' ? 'Veg' : 'Non-veg'}

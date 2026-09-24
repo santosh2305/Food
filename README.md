@@ -67,9 +67,7 @@ Business assumption: minimum order ₹300; eligible delivery orders, including e
 
 ## Image provenance
 
-`public/assets/andhra-table.webp` is an original AI-generated editorial illustration created for this website. It is labelled illustrative and does not represent a guaranteed dish or serving. Menu cards use licensed, representative Wikimedia Commons photographs matched by dish name/family. Source, photographer and licence are preserved in `src/data/photo-credits.json` and displayed on `/image-credits`. CSS fits the original downloaded images into consistent cards. Do not remove attribution when replacing photos. `scripts/fetch-menu-photos.ps1` records sources and skips previously downloaded assets; it is a maintenance utility, not part of builds.
-
-After downloading or replacing photos, manually inspect each match and its licence, then run `node scripts/optimize-images.mjs` to create 320/640px WebP variants and update the manifest. Search results are candidates, not approved matches. Original downloads are retained for reproducible optimisation. Cashaw Channa and Sweet Vada use a labelled representative sweets-family image because their exact appearance was not supplied.
+`public/assets/andhra-table.webp` is an original AI-generated editorial illustration created for this website. It is labelled illustrative and does not represent a guaranteed dish or serving. Menu cards use clean category placeholders. The externally sourced dish photographs, image credits page and photo-maintenance utilities were removed at the owner's request.
 
 The original cooking emblem at `public/assets/shanvis-emblem.png` was generated with the built-in image-generation tool; the site serves the smaller 256px WebP version. Prompt: a circular green and antique-gold badge showing an Indian woman cooking in a green sari with a brass pot, terracotta flame and banana leaves, on ivory, with no lettering. The wordmark is accessible HTML using the same self-hosted DM Sans family as the entire interface.
 

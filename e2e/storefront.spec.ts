@@ -9,18 +9,12 @@ test('public home, persisted cart, approved QR and responsive accessibility', as
   await expect(page.getByRole('heading', { name: /Good food.*Great mood/ })).toBeVisible();
   await expect(page.locator('.fresh-food-image')).toHaveJSProperty('complete', true);
   await expect(page.locator('.header .brand-emblem')).toHaveJSProperty('naturalWidth', 256);
-  await expect(page.locator('.menu-card .card-image img')).toHaveCount(4);
+  await expect(page.locator('.menu-card .card-image img')).toHaveCount(0);
   const fonts = await page
     .locator('h1, .nav, .menu-card h3, .menu-card .price')
     .evaluateAll((nodes) => [...new Set(nodes.map((node) => getComputedStyle(node).fontFamily))]);
   expect(fonts).toHaveLength(1);
   await page.evaluate(() => document.fonts.ready);
-  for (const image of await page.locator('.menu-card .card-image img').all()) {
-    await image.scrollIntoViewIfNeeded();
-    await expect
-      .poll(() => image.evaluate((img: HTMLImageElement) => img.naturalWidth))
-      .toBeGreaterThan(0);
-  }
   await page.evaluate(() => window.scrollTo(0, 0));
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
     true,

@@ -146,7 +146,6 @@ export function Layout() {
             <Link to="/privacy">Privacy</Link>
             <Link to="/terms">Terms & cancellations</Link>
             <Link to="/allergens">Allergen notice</Link>
-            <Link to="/image-credits">Image credits</Link>
           </div>
         </div>
       </footer>
