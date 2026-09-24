@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
-import { ArrowUpRight, Leaf, MapPin, Menu, ShoppingBag, X } from 'lucide-react';
+import { ArrowUpRight, MapPin, Menu, ShoppingBag, X } from 'lucide-react';
 import { business, money } from '../config';
 import { useCart } from '../state/CartContext';
 import { whatsappUrl } from '../services/order';
@@ -35,9 +35,13 @@ export function Layout() {
       <header className="header">
         <div className="header-inner">
           <Link to="/" className="brand" aria-label="Shanvis kitchen home">
-            <span className="brand-seal">
-              <Leaf size={22} strokeWidth={1.3} />
-            </span>
+            <img
+              className="brand-emblem"
+              src="/assets/shanvis-emblem.webp"
+              alt=""
+              width="64"
+              height="64"
+            />
             <span>
               <strong>
                 Shanvis <em>kitchen</em>
@@ -52,9 +56,9 @@ export function Layout() {
             <NavLink to="/menu" onClick={() => setNavOpen(false)}>
               Our menu
             </NavLink>
-            <Link to="/#our-story" onClick={() => setNavOpen(false)}>
-              Our story
-            </Link>
+            <NavLink to="/monthly" onClick={() => setNavOpen(false)}>
+              Monthly plans
+            </NavLink>
             <Link to="/#contact" onClick={() => setNavOpen(false)}>
               Contact
             </Link>
@@ -90,7 +94,14 @@ export function Layout() {
         <div className="footer-main container">
           <div>
             <Link to="/" className="brand footer-brand">
-              <Leaf size={26} />
+              <img
+                className="brand-emblem"
+                src="/assets/shanvis-emblem.webp"
+                alt=""
+                width="64"
+                height="64"
+                loading="lazy"
+              />
               <span>
                 <strong>
                   Shanvis <em>kitchen</em>
@@ -106,6 +117,7 @@ export function Layout() {
           <div>
             <h3>Come hungry.</h3>
             <Link to="/menu">Explore our menu</Link>
+            <Link to="/monthly">Monthly salad & protein menus</Link>
             <Link to="/cart">Your cart</Link>
             <a href="/#how-it-works">How to order</a>
           </div>
@@ -134,10 +146,11 @@ export function Layout() {
             <Link to="/privacy">Privacy</Link>
             <Link to="/terms">Terms & cancellations</Link>
             <Link to="/allergens">Allergen notice</Link>
+            <Link to="/image-credits">Image credits</Link>
           </div>
         </div>
       </footer>
-      {cart.count > 0 && location.pathname === '/menu' && (
+      {cart.count > 0 && ['/menu', '/monthly'].includes(location.pathname) && (
         <button className="mobile-cart-bar" onClick={() => setCartOpen(true)}>
           <span>
             {cart.count} items · {money(cart.total)}

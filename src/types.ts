@@ -17,6 +17,7 @@ export type MenuItem = {
   featured?: boolean;
   special?: boolean;
   sourcePage: number;
+  sourceDocument?: string;
 };
 export type CartLine = {
   itemId: string;

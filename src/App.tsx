@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import Home from './pages/Home';
 const Menu = lazy(() => import('./pages/Menu'));
+const Monthly = lazy(() => import('./pages/Monthly'));
+const PhotoCredits = lazy(() => import('./pages/PhotoCredits'));
 const Cart = lazy(() => import('./pages/Cart'));
 const Checkout = lazy(() => import('./pages/Checkout'));
 const Confirmation = lazy(() => import('./pages/Confirmation'));
@@ -21,6 +23,8 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="menu" element={<Menu />} />
+          <Route path="monthly" element={<Monthly />} />
+          <Route path="image-credits" element={<PhotoCredits />} />
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
           <Route path="confirmation" element={<Confirmation />} />

@@ -5,6 +5,8 @@ import App from './App';
 import { CartProvider } from './state/CartContext';
 import { OrderProvider } from './state/OrderContext';
 import './styles.css';
+import '@fontsource-variable/dm-sans';
+import './refresh.css';
 class ErrorBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
   state = { failed: false };
   static getDerivedStateFromError() {

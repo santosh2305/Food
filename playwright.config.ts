@@ -6,7 +6,8 @@ export default defineConfig({
   reporter: 'list',
   use: {
     baseURL: process.env.TEST_BASE_URL || 'http://127.0.0.1:4173',
-    trace: 'retain-on-failure',
+    // Do not record checkout QR images or customer/payment fields in traces.
+    trace: 'off',
   },
   projects: [
     { name: 'desktop', use: { ...devices['Desktop Chrome'] } },

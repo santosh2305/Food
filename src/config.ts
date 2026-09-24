@@ -10,7 +10,7 @@ export const business = {
   hours: '24/7',
   minimum: 30000,
   freeDeliveryThreshold: 30000,
-  qrPath: localAsset(env.VITE_UPI_QR_PATH),
+  qrPath: localAsset(env.VITE_UPI_QR_PATH ?? '/assets/payments/merchant-qr.jpeg'),
   merchantName: 'Divya',
   cashEnabled: env.VITE_ENABLE_COD === 'true',
   pickupEnabled: env.VITE_ENABLE_PAY_ON_PICKUP === 'true',

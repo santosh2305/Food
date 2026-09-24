@@ -53,21 +53,27 @@ it('removes an item and returns to the empty-cart state', async () => {
   expect(screen.getByText('A little hungry?')).toBeInTheDocument();
 });
 it('disables checkout when the approved payment configuration is missing', () => {
-  localStorage.setItem(
-    CART_KEY,
-    JSON.stringify([{ itemId: item.id, quantity: 2, optionIds: [], instructions: '' }]),
-  );
-  render(
-    <MemoryRouter>
-      <CartProvider catalogue={[item]}>
-        <OrderProvider>
-          <Checkout />
-        </OrderProvider>
-      </CartProvider>
-    </MemoryRouter>,
-  );
-  expect(screen.getByRole('button', { name: /Create order request/ })).toBeDisabled();
-  expect(screen.getByText('Online payment is being set up.')).toBeInTheDocument();
+  const original = business.qrPath;
+  business.qrPath = '';
+  try {
+    localStorage.setItem(
+      CART_KEY,
+      JSON.stringify([{ itemId: item.id, quantity: 2, optionIds: [], instructions: '' }]),
+    );
+    render(
+      <MemoryRouter>
+        <CartProvider catalogue={[item]}>
+          <OrderProvider>
+            <Checkout />
+          </OrderProvider>
+        </CartProvider>
+      </MemoryRouter>,
+    );
+    expect(screen.getByRole('button', { name: /Create order request/ })).toBeDisabled();
+    expect(screen.getByText('Online payment is being set up.')).toBeInTheDocument();
+  } finally {
+    business.qrPath = original;
+  }
 });
 it('creates an explicitly unaccepted order request with enabled cash payment and no persistent personal data', async () => {
   const original = business.cashEnabled;

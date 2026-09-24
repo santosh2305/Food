@@ -1,4 +1,5 @@
 import type { MenuItem, Dietary } from '../types';
+import { proteinMenu } from './monthly';
 type Entry = [name: string, rupees: number | null, portion?: string, description?: string];
 function section(
   category: string,
@@ -22,6 +23,7 @@ function section(
 // Dietary labels are inherited only from explicitly marked menu sections.
 // No portion, recipe, allergen, spice or vegan assumptions are made.
 export const menu: MenuItem[] = [
+  ...proteinMenu,
   ...section('Idli', 1, 'vegetarian', [
     ['Idli', 50, '4 pieces'],
     ['Ragi Idli', 70, '4 pieces'],

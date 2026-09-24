@@ -1,0 +1,551 @@
+{
+  "brinjal": {
+    "path": "/assets/dishes/brinjal.webp",
+    "title": "File:Gutti Vankaya Kura.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gutti_Vankaya_Kura.jpg",
+    "author": "Rupak76",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Gutti vankaya"
+  },
+  "uttapam": {
+    "path": "/assets/dishes/uttapam.webp",
+    "title": "File:Uttapam dosa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Uttapam_dosa.jpg",
+    "author": "Apoorva lakshmi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Uttapam"
+  },
+  "chole": {
+    "path": "/assets/dishes/chole.webp",
+    "title": "File:Chana Masala - Mohammed - Spice Of Life 2024-05-27.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chana_Masala_-_Mohammed_-_Spice_Of_Life_2024-05-27.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "representativeOf": "Chana masala"
+  },
+  "idli": {
+    "path": "/assets/dishes/idli.webp",
+    "title": "File:Idli Sambar.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG",
+    "author": "Soumya dey  at  English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "representativeOf": "Idli"
+  },
+  "bonda": {
+    "licenseUrl": null,
+    "path": "/assets/dishes/bonda.webp",
+    "title": "File:Bonda2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bonda2.jpg",
+    "representativeOf": "bonda",
+    "license": "Public domain",
+    "author": "No machine-readable author provided.  Pamri  assumed (based on copyright claims)."
+  },
+  "set-dosa": {
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "path": "/assets/dishes/set-dosa.webp",
+    "title": "File:Set Dosa with Chutney.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Set_Dosa_with_Chutney.jpg",
+    "representativeOf": "set dosa",
+    "license": "CC BY-SA 4.0",
+    "author": "Amol Sinha"
+  },
+  "chapati": {
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "path": "/assets/dishes/chapati.webp",
+    "title": "File:Chapati.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chapati.jpg",
+    "representativeOf": "chapati",
+    "license": "CC BY-SA 3.0",
+    "author": "The original uploader was  Christian Köhler  at  German Wikipedia ."
+  },
+  "pesarattu": {
+    "path": "/assets/dishes/pesarattu.webp",
+    "title": "File:Pesarattu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pesarattu.jpg",
+    "author": "Ryallabandi  at  en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "representativeOf": "Pesarattu"
+  },
+  "pongal": {
+    "path": "/assets/dishes/pongal.webp",
+    "title": "File:Ven Pongal & sakkarai pongal with vada & bonda.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ven_Pongal_%26_sakkarai_pongal_with_vada_%26_bonda.jpg",
+    "author": "Raamsanjay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Ven pongal"
+  },
+  "mutton-curry": {
+    "path": "/assets/dishes/mutton-curry.webp",
+    "title": "File:Mutton Curry (44786).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mutton_Curry_(44786).jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "representativeOf": "Mutton curry"
+  },
+  "pulihora": {
+    "path": "/assets/dishes/pulihora.webp",
+    "title": "File:LEMON PULIHORA.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:LEMON_PULIHORA.JPG",
+    "author": "Mkr.lines",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Pulihora"
+  },
+  "aloo-gobi": {
+    "path": "/assets/dishes/aloo-gobi.webp",
+    "title": "File:Aloo gobi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aloo_gobi.jpg",
+    "author": "",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "representativeOf": "Aloo gobi"
+  },
+  "paneer": {
+    "path": "/assets/dishes/paneer.webp",
+    "title": "File:Paneer butter masala 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paneer_butter_masala_2.jpg",
+    "author": "Gannu03",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Paneer butter masala"
+  },
+  "dosa": {
+    "path": "/assets/dishes/dosa.webp",
+    "title": "File:Masala dosa 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_dosa_01.jpg",
+    "author": "Marajozkee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Masala dosa"
+  },
+  "prawn-curry": {
+    "path": "/assets/dishes/prawn-curry.webp",
+    "title": "File:King prawn curry - Sunoso.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:King_prawn_curry_-_Sunoso.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "representativeOf": "Prawn curry"
+  },
+  "chicken-curry": {
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "path": "/assets/dishes/chicken-curry.webp",
+    "title": "File:Chicken Curry.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Curry.jpg",
+    "representativeOf": "chicken curry",
+    "license": "CC BY-SA 2.0",
+    "author": "Ramesh NG"
+  },
+  "fried-rice": {
+    "path": "/assets/dishes/fried-rice.webp",
+    "title": "File:Vegetable fried rice from Kerala.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vegetable_fried_rice_from_Kerala.jpg",
+    "author": "Ganesh Mohan T",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Vegetable fried rice"
+  },
+  "egg-curry": {
+    "path": "/assets/dishes/egg-curry.webp",
+    "title": "File:Spicy Anda Curry.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Spicy_Anda_Curry.jpg",
+    "author": "https://onlybestrecipes.com/egg-curry-recipeegg-curry-recipe/",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Egg curry"
+  },
+  "upma": {
+    "path": "/assets/dishes/upma.webp",
+    "title": "File:Upma South India.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Upma_South_India.JPG",
+    "author": "Intodustin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Upma"
+  },
+  "poori": {
+    "path": "/assets/dishes/poori.webp",
+    "title": "File:Puri food.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Puri_food.jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Puri food"
+  },
+  "chole-bhature": {
+    "path": "/assets/dishes/chole-bhature.webp",
+    "title": "File:Chole Bhature 6.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chole_Bhature_6.jpg",
+    "author": "Gannu03",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Chole bhature"
+  },
+  "vada": {
+    "path": "/assets/dishes/vada.webp",
+    "title": "File:ഉഴുന്നുവടകൾ.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:%E0%B4%89%E0%B4%B4%E0%B5%81%E0%B4%A8%E0%B5%8D%E0%B4%A8%E0%B5%81%E0%B4%B5%E0%B4%9F%E0%B4%95%E0%B5%BE.JPG",
+    "author": "Sugeesh  at ml.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "representativeOf": "Medu vada"
+  },
+  "masala-vada": {
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "path": "/assets/dishes/masala-vada.webp",
+    "title": "File:Masala vada - 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_vada_-_1.jpg",
+    "representativeOf": "masala vada",
+    "license": "CC BY-SA 4.0",
+    "author": "Ashok Kumar P S"
+  },
+  "curd-vada": {
+    "path": "/assets/dishes/curd-vada.webp",
+    "title": "File:Odia Style Dahi bara Puri Odisha-IMG 953.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Odia_Style_Dahi_bara_Puri_Odisha-IMG_953.jpg",
+    "author": "Subhransuphotography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Dahi vada"
+  },
+  "meal": {
+    "path": "/assets/dishes/meal.webp",
+    "title": "File:South Indian Thali Cropped.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:South_Indian_Thali_Cropped.jpg",
+    "author": "Tracy Hunter",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "representativeOf": "South Indian thali"
+  },
+  "veg-biryani": {
+    "path": "/assets/dishes/veg-biryani.webp",
+    "title": "File:Vegetable Biryani IMG 001.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vegetable_Biryani_IMG_001.jpg",
+    "author": "Phadke09",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Vegetable biryani"
+  },
+  "chicken-biryani": {
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "path": "/assets/dishes/chicken-biryani.webp",
+    "title": "File:ChickenBiryani.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:ChickenBiryani.jpg",
+    "representativeOf": "chicken biryani",
+    "license": "CC BY-SA 4.0",
+    "author": "Delhifoodwalks"
+  },
+  "mutton-biryani": {
+    "path": "/assets/dishes/mutton-biryani.webp",
+    "title": "File:A home made plate of mutton biryani served with chicken kassa cooked in the bengali style.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:A_home_made_plate_of_mutton_biryani_served_with_chicken_kassa_cooked_in_the_bengali_style.jpg",
+    "author": "Subhrajyoti07",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Mutton biryani"
+  },
+  "prawn-biryani": {
+    "path": "/assets/dishes/prawn-biryani.webp",
+    "title": "File:Prawn Biryani, Hyderabad.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Prawn_Biryani,_Hyderabad.jpg",
+    "author": "Abhinaba Basu",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "representativeOf": "Prawn biryani"
+  },
+  "egg-biryani": {
+    "path": "/assets/dishes/egg-biryani.webp",
+    "title": "File:Egg Biryani in a restaurant.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Egg_Biryani_in_a_restaurant.jpg",
+    "author": "Medhi jyoti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Egg biryani"
+  },
+  "jeera-rice": {
+    "path": "/assets/dishes/jeera-rice.webp",
+    "title": "File:Jeera-rice.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeera-rice.JPG",
+    "author": "Sonia Goyal",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "representativeOf": "Jeera rice"
+  },
+  "pulao": {
+    "path": "/assets/dishes/pulao.webp",
+    "title": "File:Pulao with channa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pulao_with_channa.jpg",
+    "author": "Sandhiya Rangasami",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "representativeOf": "pulao"
+  },
+  "chicken-fry": {
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "path": "/assets/dishes/chicken-fry.webp",
+    "title": "File:Chicken fry pieces 3.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_fry_pieces_3.JPG",
+    "representativeOf": "chicken fry",
+    "license": "CC BY-SA 3.0",
+    "author": "Rameshng"
+  },
+  "liver": {
+    "path": "/assets/dishes/liver.webp",
+    "title": "File:Ciger tava.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ciger_tava.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Liver fry"
+  },
+  "keema": {
+    "path": "/assets/dishes/keema.webp",
+    "title": "File:Keema and Rice.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Keema_and_Rice.jpg",
+    "author": "Cyapoj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Keema"
+  },
+  "fish-curry": {
+    "path": "/assets/dishes/fish-curry.webp",
+    "title": "File:Meen curry 2.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Meen_curry_2.JPG",
+    "author": "Kalakki  at  Malayalam Wikipedia",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "representativeOf": "Fish curry"
+  },
+  "fish-fry": {
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "path": "/assets/dishes/fish-fry.webp",
+    "title": "File:Fish Fry 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish_Fry_1.jpg",
+    "representativeOf": "fish fry",
+    "license": "CC BY-SA 4.0",
+    "author": "Vamsi202"
+  },
+  "chilli-chicken": {
+    "path": "/assets/dishes/chilli-chicken.webp",
+    "title": "File:Chicken Chilli 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Chilli_1.jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Chilli chicken"
+  },
+  "tandoori": {
+    "path": "/assets/dishes/tandoori.webp",
+    "title": "File:Tandoori chicken Indian.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tandoori_chicken_Indian.jpg",
+    "author": "pelican",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "representativeOf": "Tandoori chicken"
+  },
+  "boiled-chicken": {
+    "path": "/assets/dishes/boiled-chicken.webp",
+    "title": "File:BeiQieJi-WhiteCutChicken.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:BeiQieJi-WhiteCutChicken.jpg",
+    "author": "Sjschen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "representativeOf": "Poached chicken"
+  },
+  "paratha": {
+    "path": "/assets/dishes/paratha.webp",
+    "title": "File:Paratha from Narathiwas, Thailand.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paratha_from_Narathiwas,_Thailand.jpg",
+    "author": "Vee Satayamas",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "representativeOf": "Paratha"
+  },
+  "pakoda": {
+    "path": "/assets/dishes/pakoda.webp",
+    "title": "File:Onion pakoda with futana chutni.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Onion_pakoda_with_futana_chutni.jpg",
+    "author": "Narendar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Onion pakoda"
+  },
+  "bajji": {
+    "path": "/assets/dishes/bajji.webp",
+    "title": "File:Stuffed mirchi bajji (16164286908).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stuffed_mirchi_bajji_(16164286908).jpg",
+    "author": "balu  from fremont, ca, usa",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "representativeOf": "Mirchi bajji"
+  },
+  "noodles": {
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:Maggi noodles.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Maggi_noodles.jpg",
+    "author": "Soorajsharma26",
+    "representativeOf": "noodles",
+    "path": "/assets/dishes/noodles.webp"
+  },
+  "buttermilk": {
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:Buttermilk.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Buttermilk.jpg",
+    "author": "Darshandkt",
+    "representativeOf": "buttermilk",
+    "path": "/assets/dishes/buttermilk.webp"
+  },
+  "badam-milk": {
+    "representativeOf": "badam milk",
+    "license": "CC BY-SA 4.0",
+    "author": "Shabnam Shamsuddin",
+    "source": "https://commons.wikimedia.org/wiki/File:Badam_Milk_Drink.jpg",
+    "path": "/assets/dishes/badam-milk.webp",
+    "title": "File:Badam Milk Drink.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "payasam": {
+    "path": "/assets/dishes/payasam.webp",
+    "title": "File:Kheer (Payasam).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kheer_(Payasam).jpg",
+    "author": "Ayshamarjana",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Payasam"
+  },
+  "sweet-pongal": {
+    "path": "/assets/dishes/sweet-pongal.webp",
+    "title": "File:Ven Pongal & sakkarai pongal with vada & bonda.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ven_Pongal_%26_sakkarai_pongal_with_vada_%26_bonda.jpg",
+    "author": "Raamsanjay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Sakkarai pongal"
+  },
+  "halwa": {
+    "path": "/assets/dishes/halwa.webp",
+    "title": "File:Bread Halwa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bread_Halwa.jpg",
+    "author": "Kurinjikathambam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Bread halwa"
+  },
+  "carrot-halwa": {
+    "path": "/assets/dishes/carrot-halwa.webp",
+    "title": "File:Delicious Gajar Ka Halwa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Delicious_Gajar_Ka_Halwa.jpg",
+    "author": "Sharvarism",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Gajar halwa"
+  },
+  "gulab-jamun": {
+    "path": "/assets/dishes/gulab-jamun.webp",
+    "title": "File:Two Gulab Jamun in a plate 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Two_Gulab_Jamun_in_a_plate_01.jpg",
+    "author": "Suyash.dwivedi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Gulab jamun"
+  },
+  "custard": {
+    "path": "/assets/dishes/custard.webp",
+    "title": "File:Homemade Flan.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Homemade_Flan.jpg",
+    "author": "Cary Bass",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "representativeOf": "Custard dessert"
+  },
+  "obbattu": {
+    "path": "/assets/dishes/obbattu.webp",
+    "title": "File:Obbattu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Obbattu.jpg",
+    "author": "GaneshDatta  ( talk ) ( Uploads )",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "representativeOf": "Obbattu"
+  },
+  "laddu": {
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "title": "File:Besan laddu photo.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Besan_laddu_photo.JPG",
+    "author": "Sonia Goyal",
+    "representativeOf": "laddu",
+    "path": "/assets/dishes/laddu.webp"
+  },
+  "burfi": {
+    "path": "/assets/dishes/burfi.webp",
+    "title": "File:Wiki-cinema indiano a Pisa, coconut barfi – 2025-11-18.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Wiki-cinema_indiano_a_Pisa,_coconut_barfi_%E2%80%93_2025-11-18.jpg",
+    "author": "Dream Indigo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Coconut barfi"
+  },
+  "boorelu": {
+    "path": "/assets/dishes/boorelu.webp",
+    "title": "File:Poornalu.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Poornalu.JPG",
+    "author": "Abhinavsikharam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "Poornalu"
+  },
+  "salad": {
+    "representativeOf": "salad",
+    "license": "CC BY-SA 4.0",
+    "author": "Keerthinellikkalaya",
+    "source": "https://commons.wikimedia.org/wiki/File:Sprouts_salad.jpg",
+    "path": "/assets/dishes/salad.webp",
+    "title": "File:Sprouts salad.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "lime": {
+    "path": "/assets/dishes/lime.webp",
+    "title": "File:Lime drink to relieve spiciness.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lime_drink_to_relieve_spiciness.jpg",
+    "author": "Fumikas Sagisavas",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "representativeOf": "lime"
+  },
+  "pasta": {
+    "path": "/assets/dishes/pasta.webp",
+    "title": "File:Tomato pasta noodles.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tomato_pasta_noodles.jpg",
+    "author": "Mallikarjunasj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "representativeOf": "pasta"
+  },
+  "sweets": {
+    "representativeOf": "sweets",
+    "license": "Public domain",
+    "author": "Amolnaik3k",
+    "source": "https://commons.wikimedia.org/wiki/File:Indian_Sweets.JPG",
+    "path": "/assets/dishes/sweets.webp",
+    "title": "File:Indian Sweets.JPG",
+    "licenseUrl": null
+  },
+  "punugulu": {
+    "representativeOf": "punugulu",
+    "license": "CC BY-SA 4.0",
+    "author": "Sojanya",
+    "source": "https://commons.wikimedia.org/wiki/File:Punugulu.jpg",
+    "path": "/assets/dishes/punugulu.webp",
+    "title": "File:Punugulu.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}

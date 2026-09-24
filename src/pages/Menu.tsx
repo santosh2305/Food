@@ -111,8 +111,8 @@ export default function MenuPage() {
         <strong>A note about your food</strong>
         <p>
           Dietary labels appear only where supplied in our menu. For ingredients, allergies or
-          cross-contact concerns, contact the kitchen before ordering. Photos are being prepared;
-          dish artwork is a placeholder. Availability is confirmed by the kitchen.
+          cross-contact concerns, contact the kitchen before ordering. Photos show representative
+          servings; actual portions and presentation vary. Availability is confirmed by the kitchen.
         </p>
       </div>
     </div>

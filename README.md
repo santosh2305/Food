@@ -33,9 +33,9 @@ Edit the catalogue, then run tests and build. All money values exposed by `MenuI
 
 ## Payments and launch configuration
 
-Copy `.env.example` to `.env.local` for local configuration. `VITE_` variables are public, embedded at build time, and must never contain secrets. The initial deployment intentionally has no payment methods enabled: merchant QR is still required. Customers can browse the actual menu, build a cart and contact the kitchen, but cannot submit a payment/order request through checkout.
+Copy `.env.example` to `.env.local` for local configuration. `VITE_` variables are public, embedded at build time, and must never contain secrets. The owner-supplied, unchanged merchant QR is available at `/assets/payments/merchant-qr.jpeg`. QR checkout creates a request with payment pending manual verification, never an accepted or automatically settled order. An explicitly empty `VITE_UPI_QR_PATH` disables QR checkout; an undefined value uses the approved asset.
 
-After the owner supplies and approves the merchant QR:
+When replacing the merchant-approved QR:
 
 1. Copy the original unchanged image to `public/assets/payments/merchant-qr.png` (or approved JPG/WebP). Do not regenerate, decode into a new destination or modify payment details.
 2. Set `VITE_UPI_QR_PATH=/assets/payments/merchant-qr.png` as a GitHub Actions variable and pass it to the build. The display name is Divya, as supplied. Verify the QR image loads at the deployed URL before enabling payment.
@@ -51,13 +51,13 @@ WhatsApp deliberately uses a clean `wa.me` URL without a `text` query. The custo
 
 Dedicated Azure resource group: `rg-shanvis-kitchen`; free-tier Static Web App: `shanvis-kitchen`, in East Asia. Other resources are untouched.
 
-The pinned GitHub Actions workflow validates formatting, lint, tests, build and desktop/mobile browser flows before deployment. `AZURE_STATIC_WEB_APPS_API_TOKEN` is stored only as a GitHub repository secret. No deployment token is checked into source or printed by our setup. Pushes on `feat/shanvis-kitchen` deploy production for this empty-repository bootstrap; `main` is supported for later integration. Retire the feature-branch production trigger once main becomes the release branch. Pull requests run checks without a deployment secret. To roll back, revert the relevant source commit on the release branch and let the verified workflow redeploy.
+The pinned GitHub Actions workflow validates formatting, lint, tests, build and desktop/mobile browser flows before deployment. `AZURE_STATIC_WEB_APPS_API_TOKEN` is stored only as a GitHub repository secret. No deployment token is checked into source or printed by our setup. Pushes on `feat/shanvis-refresh` deploy production; `main` is supported for later integration. Retire the feature-branch production trigger once main becomes the release branch. Pull requests run checks without a deployment secret. To roll back, revert the relevant source commit on the release branch and let the verified workflow redeploy.
 
 Security headers include CSP, clickjacking protection, no-referrer and restricted device permissions. Routes are served by Azure's SPA fallback; unknown application routes show the in-app 404. No customer database, Azure Function, tracker or analytics SDK is introduced.
 
 ## Remaining owner content
 
-- Merchant UPI QR (or explicit authorization to enable another payment method).
+- The two unlisted bowls/days in the monthly salad rotation (the supplied poster advertises ten but lists eight).
 - Fish Curry and Ghee Laddu prices.
 - Approved pickup address if pickup is offered.
 - Final privacy, terms, cancellation and refund policies. Current pages are clearly labelled placeholders.
@@ -67,4 +67,14 @@ Business assumption: minimum order ₹300; eligible delivery orders, including e
 
 ## Image provenance
 
-`public/assets/andhra-table.webp` is an original AI-generated editorial illustration created for this website. It is labelled illustrative and does not represent a guaranteed dish or serving. Menu cards use explicitly marked photograph placeholders, not unlicensed restaurant photography.
+`public/assets/andhra-table.webp` is an original AI-generated editorial illustration created for this website. It is labelled illustrative and does not represent a guaranteed dish or serving. Menu cards use licensed, representative Wikimedia Commons photographs matched by dish name/family. Source, photographer and licence are preserved in `src/data/photo-credits.json` and displayed on `/image-credits`. CSS fits the original downloaded images into consistent cards. Do not remove attribution when replacing photos. `scripts/fetch-menu-photos.ps1` records sources and skips previously downloaded assets; it is a maintenance utility, not part of builds.
+
+After downloading or replacing photos, manually inspect each match and its licence, then run `node scripts/optimize-images.mjs` to create 320/640px WebP variants and update the manifest. Search results are candidates, not approved matches. Original downloads are retained for reproducible optimisation. Cashaw Channa and Sweet Vada use a labelled representative sweets-family image because their exact appearance was not supplied.
+
+The original cooking emblem at `public/assets/shanvis-emblem.png` was generated with the built-in image-generation tool; the site serves the smaller 256px WebP version. Prompt: a circular green and antique-gold badge showing an Indian woman cooking in a green sari with a brass pot, terracotta flame and banana leaves, on ivory, with no lettering. The wordmark is accessible HTML using the same self-hosted DM Sans family as the entire interface.
+
+## Monthly offerings
+
+`src/data/monthly.ts` transcribes the two owner-supplied JPEG menus. The salad subscription is ₹2,600 for 20 bowls, after the advertised ₹150 discount, with free packing/delivery. Only eight rotation entries are supplied; the page preserves their weekdays and prices without inventing missing entries. Subscriptions are enquiries requiring merchant confirmation of the full schedule before payment. Seven daily protein dishes are available in the regular cart at their individual supplied prices. No protein subscription total is invented. Original posters remain available under `public/assets/monthly/`.
+
+Public website: https://gray-plant-06086f600.4.azurestaticapps.net/ — no sign-in required.

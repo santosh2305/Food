@@ -198,7 +198,7 @@ input:disabled {
   color: #896f3d;
 }
 .brand strong {
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   display: block;
   font-size: 1.8rem;
   font-weight: 400;
@@ -428,7 +428,7 @@ input:disabled {
   background: #faf7ef;
   padding: 12px 23px;
   border-bottom: 1px solid #b6b99d;
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 1.04rem;
   transform: rotate(-5deg);
 }
@@ -522,7 +522,7 @@ input:disabled {
   place-items: center;
 }
 .placeholder-category {
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 1.1rem;
   font-style: italic;
 }
@@ -726,7 +726,7 @@ input:disabled {
   background: #eef0e3;
 }
 .meal-number {
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 7rem;
   line-height: 1;
   color: #78855e;
@@ -754,7 +754,7 @@ input:disabled {
   padding-top: 21px;
 }
 .step-number {
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 2.4rem;
   color: #818451;
   display: block;
@@ -784,13 +784,13 @@ input:disabled {
   padding: 22px 15px;
 }
 .quote-mark {
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 4rem;
   line-height: 1;
   color: #ad9d6a;
 }
 .testimonial-placeholder p {
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 1.2rem;
   font-style: italic;
   color: #6d715b;
@@ -1155,7 +1155,7 @@ footer {
   margin: 0;
 }
 .checkout-form legend {
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 1.6rem;
   padding-right: 15px;
 }
@@ -1361,7 +1361,7 @@ footer {
   min-height: 70vh;
   display: grid;
   place-items: center;
-  font-family: Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 1.5rem;
 }
 .mobile-cart-bar {
